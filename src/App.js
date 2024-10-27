@@ -29,9 +29,10 @@ const FortuneGenerator = () => {
   return (
     <div className="fortune-generator">
       <h1 className="title">Daily Fortune Cookie</h1>
-      <button className="generate-button" onClick={handleGeneration}>
-        Generate Today's Fortune
+      <button className="cookie-button" onClick={handleGeneration}>
+        🥠
       </button>
+      <h3>Click Me!</h3>
       {fortune && <p className="fortune-text">Your Fortune Is: {fortune}</p>}
       {luckyNumbers.length > 0 && (
         <p className="lucky-numbers">

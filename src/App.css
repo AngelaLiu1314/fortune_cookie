@@ -1,111 +1,9 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-
+/* App.css */
 body {
   font-family: 'Arial', sans-serif;
-  background-color: #f4f4f9;
+  background: linear-gradient(180deg, #b7e5d8 30%, #a8e0f1 100%); /* Vertical gradient with blue on the bottom */
   margin: 0;
-  padding: 20px;/* App.css */
-  body {
-    font-family: 'Arial', sans-serif;
-    background-image: url('https://example.com/asian-background.jpg'); /* Add an appropriate Asian-themed background */
-    background-size: cover;
-    background-position: center;
-    margin: 0;
-    padding: 20px;
-  }
-  
-  .app-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    height: 100vh;
-    backdrop-filter: blur(5px); /* Slight blur effect */
-  }
-  
-  .fortune-generator {
-    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
-    border-radius: 10px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
-    padding: 30px;
-    text-align: center;
-    width: 300px;
-    transition: transform 0.2s;
-  }
-  
-  .fortune-generator:hover {
-    transform: scale(1.05); /* Slight zoom on hover */
-  }
-  
-  .title {
-    color: #c70039; /* A rich red color often found in Asian art */
-    margin-bottom: 20px;
-    font-size: 24px;
-    font-weight: bold;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Subtle text shadow */
-  }
-  
-  .generate-button {
-    background-color: #4CAF50; /* Green button */
-    color: white;
-    border: none;
-    border-radius: 5px;
-    padding: 10px 20px;
-    cursor: pointer;
-    transition: background-color 0.3s, transform 0.2s;
-  }
-  
-  .generate-button:hover {
-    background-color: #45a049; /* Darker green on hover */
-    transform: translateY(-2px); /* Button lift effect */
-  }
-  
-  .fortune-text,
-  .lucky-numbers {
-    margin-top: 15px;
-    font-size: 16px;
-    color: #555;
-    line-height: 1.5; /* Spacing between lines */
-  }
-  
+  padding: 20px;
 }
 
 .app-container {
@@ -117,44 +15,32 @@ body {
 }
 
 .fortune-generator {
-  background-color: #ffffff;
-  border-radius: 10px;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-  padding: 30px;
   text-align: center;
-  width: 300px;
-  transition: transform 0.2s;
-}
-
-.fortune-generator:hover {
-  transform: scale(1.05); /* Slight zoom on hover */
 }
 
 .title {
   color: #333;
   margin-bottom: 20px;
-  font-size: 24px;
+  font-size: 28px;
+  font-weight: bold;
 }
 
-.generate-button {
-  background-color: #28a745; /* Green button */
-  color: white;
-  border: none;
-  border-radius: 5px;
-  padding: 10px 20px;
-  cursor: pointer;
-  transition: background-color 0.3s, transform 0.2s;
+.cookie-button {
+  font-size: 150px; /* Size of the fortune cookie emoji */
+  background: none; /* No background */
+  border: none; /* No border */
+  cursor: pointer; /* Change cursor to pointer */
+  transition: transform 0.2s; /* Animation for hover */
 }
 
-.generate-button:hover {
-  background-color: #218838; /* Darker green on hover */
-  transform: translateY(-2px); /* Button lift effect */
+.cookie-button:hover {
+  transform: scale(1.1); /* Slight zoom on hover */
 }
 
 .fortune-text,
 .lucky-numbers {
   margin-top: 15px;
-  font-size: 16px;
+  font-size: 18px;
   color: #555;
-  line-height: 1.5; /* Spacing between lines */
+  line-height: 1.5;
 }
