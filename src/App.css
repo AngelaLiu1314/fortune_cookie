@@ -1,7 +1,6 @@
-/* App.css */
-body {
+body {/* background vertical gradient from blue to green */
   font-family: 'Arial', sans-serif;
-  background: linear-gradient(180deg, #b7e5d8 30%, #a8e0f1 100%); /* Vertical gradient with blue on the bottom */
+  background: linear-gradient(180deg, #b7e5d8 30%, #a8e0f1 100%); 
   margin: 0;
   padding: 20px;
 }
@@ -19,28 +18,28 @@ body {
 }
 
 .title {
-  color: #333;
+  color: #000000;
   margin-bottom: 20px;
   font-size: 28px;
   font-weight: bold;
 }
 
-.cookie-button {
-  font-size: 150px; /* Size of the fortune cookie emoji */
-  background: none; /* No background */
-  border: none; /* No border */
-  cursor: pointer; /* Change cursor to pointer */
-  transition: transform 0.2s; /* Animation for hover */
+.cookie-button { /*handles what the fortune button looks like and what happens when mouse hovers over it*/
+  font-size: 150px; 
+  background: none; 
+  border: none; 
+  cursor: pointer; 
+  transition: transform 0.2s;
 }
 
-.cookie-button:hover {
-  transform: scale(1.1); /* Slight zoom on hover */
+.cookie-button:hover {  /*causes button to hover slighty when mouse hovers over it*/
+  transform: scale(1.1); 
 }
 
 .fortune-text,
 .lucky-numbers {
   margin-top: 15px;
   font-size: 18px;
-  color: #555;
+  color: #000000;
   line-height: 1.5;
 }
