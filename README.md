@@ -14,4 +14,3 @@ AI Use:
 I used ChatGPT in this project to help with the website design and to creat the css file. I gave the following prompts to ChatGPT in order to generate the css file:
 - "please center the features of this website and make the button a large fortune cookie to click on"
 - "please make the background more interesting with a color gradient from blue to green"
-- 
